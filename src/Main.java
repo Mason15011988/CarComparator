@@ -18,7 +18,9 @@ public class Main {
 
         System.out.println(list);
 
-
+        System.out.println(list.get(8).equals(list.get(7)));
+        System.out.println(list.get(7).hashCode());
+        System.out.println(list.get(8).hashCode());
 
         System.out.println("Сортировка сначала по имени, потом по цене");
 
@@ -37,5 +39,9 @@ public class Main {
             System.out.println(p.getCost() + " " + p.getName());
 
         }
+
+        System.out.println(list.get(8).equals(list.get(7)));
+        System.out.println(list.get(7).hashCode());
+        System.out.println(list.get(8).hashCode());
     }
 }
